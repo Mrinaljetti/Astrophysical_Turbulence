@@ -135,6 +135,7 @@ int main(int argc, char *argv[])
                 sb_rms += sb[i1*ny+j1]*sb[i1*ny+j1];
                 sb_avg += sb[i1*ny+j1];
                 
+                //sigvlos calculation 
                 sigvlos[i1*ny+j1] = 0.0;
                 for(k1=0;k1<nz;k1++)
                 {
